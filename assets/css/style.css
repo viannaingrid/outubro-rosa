@@ -92,7 +92,8 @@ footer {
 footer p {
   display: flex;
   align-items: center;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 400;
   justify-content: space-around;
+  color: #fff;
 }/*# sourceMappingURL=style.css.map */
