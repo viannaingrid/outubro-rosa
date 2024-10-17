@@ -25,7 +25,6 @@ header {
 .containerLogo {
   display: flex;
   width: 18%;
-  justify-content: space-between;
   align-items: center;
 }
 
@@ -97,4 +96,37 @@ footer p {
   font-weight: 400;
   justify-content: space-around;
   color: #fff;
+}
+
+@media (max-width: 500px) {
+  header {
+    height: 50vh;
+    flex-direction: column;
+  }
+  header nav {
+    width: 95%;
+  }
+  header nav ul a {
+    font-size: 22px;
+  }
+  .containerLogo {
+    width: 50vh;
+    flex-direction: column;
+  }
+  section {
+    flex-direction: column-reverse;
+  }
+  section p {
+    width: 90%;
+    font-size: 20px;
+  }
+  footer {
+    flex-direction: column;
+  }
+  footer section {
+    padding: 10px;
+  }
+  footer section p {
+    padding: 20px;
+  }
 }/*# sourceMappingURL=style.css.map */

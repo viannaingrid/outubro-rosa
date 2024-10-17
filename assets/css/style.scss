@@ -102,3 +102,47 @@ footer {
     color: #fff;
     }
 }
+
+@media (max-width: 500px) {
+    header {
+        height: 50vh;
+        flex-direction: column;
+
+        nav {
+            width: 95%;
+
+            ul {
+                a {
+                    font-size: 22px;
+                }
+            }
+        }
+    }
+
+    .containerLogo{
+        width: 50vh;
+        flex-direction: column;
+        
+    }
+
+    section {
+        flex-direction: column-reverse;
+
+        p{
+            width: 90%;
+            font-size: 20px;
+        }
+    }
+
+    footer {
+        flex-direction: column;
+
+        section {
+            padding: 10px;
+            
+            p {
+                padding: 20px;
+            }
+        }
+    }
+}
